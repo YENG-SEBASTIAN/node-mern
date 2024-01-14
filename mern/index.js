@@ -1,9 +1,10 @@
 
 const express = require("express");
 const mongoose = require("mongoose");
+import { DB_URL } from "./utils/secrets";
 
 mongoose.connect(
-    "mongodb+srv://yengsebastian1:Yeng123@cluster0.zuxqswp.mongodb.net/mernAppDB?retryWrites=true&w=majority"
+    DB_URL
 ).then(
     () => console.log("\n Database connected successful.")
 ).catch(
