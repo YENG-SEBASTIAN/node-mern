@@ -2,7 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://yengsebastian1:Yeng123@cluster0.zuxqswp.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://yengsebastian1:Yeng123@cluster0.zuxqswp.mongodb.net/mernAppDB?retryWrites=true&w=majority");
 
 const app = express();
 
